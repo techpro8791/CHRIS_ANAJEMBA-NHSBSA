@@ -2,8 +2,7 @@
 
 Pre-requisite
 ==============
-Please, ensure you have java sdk installed and configured in your machine without which you may face an error message
-in the build.
+Please, ensure you have java sdk and maven installed and configured in your machine without which you may face error messages in the build.
 
 Run Test: 
 ===========
@@ -24,9 +23,6 @@ Environment Overview: Check what help you could get to pay for NHS costs.
 A scenario where a user who is a full time student, 
 below 18 years old and lives in England with no kids; has GP located outside Scotland or Wales as well as Dental Practice,
 wants to know what help they can get to pay for NHS costs.
-
-
-
 
 Functional Test: 
 ===================
@@ -51,10 +47,11 @@ are:
 2. Any agreed way by the organisation in the current sprint
 3. Screen reader (google extension)
 4. Voice over (google extension)
+5. Speech recorgnition testing (windows - dragon)
 
 Compatibility Testing:
 =========================
 In line with the Government Digital Service Standards (GDS) for the environment in 
-conjunction with NHSBSA standards for web applications, chrome and firefox is spelt
+conjunction with NHSBSA standards for web and mobile applications, chrome and firefox is spelt
 out for compatibility testing and hence the automation scenarios have been moduled to 
 run on both chrome and firefox.
