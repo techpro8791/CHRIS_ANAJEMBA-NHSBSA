@@ -1,0 +1,70 @@
+{
+  "check what help you could get to pay for nhs costs": [
+    {
+      "title": "Check what help you could get to pay for NHS costs - NHSBSA",
+      "start now": "next-button"
+    }
+  ],
+  "which country do you live in": [
+    {
+      "title": "Which country do you live in? - Check what help you could get to pay for NHS costs - NHSBSA",
+      "england": "label-england",
+      "scotland": "label-scotland",
+      "wales": "label-wales",
+      "norther ireland": "label-nire",
+      "next": "next-button",
+      "error message":"(//*[text()[contains(.,'Select the country you live in')]])[1]"
+    }
+  ],
+  "is your gp practice located in scotland or wales": [
+    {
+      "title": "Is your GP practice in Scotland or Wales? - Check what help you could get to pay for NHS costs - NHSBSA",
+      "yes": "label-yes",
+      "no": "label-no",
+      "next": "next-button"
+    }
+  ],
+  "which country is your dental practice": [
+    {
+      "title": "Which country is your dental practice in? - Check what help you could get to pay for NHS costs - NHSBSA",
+      "england": "label-england",
+      "scotland": "label-scotland",
+      "wales": "label-wales",
+      "norther ireland": "label-nire",
+      "next": "next-button"
+    }
+  ],
+  "what is your date of birth": [
+    {
+      "title": "What is your date of birth? - Check what help you could get to pay for NHS costs - NHSBSA",
+      "day": "dob-day",
+      "month": "dob-month",
+      "year": "dob-year",
+      "next": "next-button",
+      "error message":"(//*[text()[contains(.,'Enter your date of birth')]])[1]"
+    }
+  ],
+  "are you in full-time education": [
+    {
+      "title": "Are you in full time education? - Check what help you could get to pay for NHS costs - NHSBSA",
+      "yes": "label-yes",
+      "no": "label-no",
+      "next": "next-button"
+    }
+  ],
+  "you can get help with nhs costs": [
+    {
+      "title": "Because you're under 19 and in full time education you get help paying NHS costs - Check what help you could get to pay for NHS costs - NHSBSA",
+      "free nhs prescription": "//*[text()[contains(.,'NHS prescriptions')]]",
+      "free nhs dental check-ups and treatment": "//*[text()[contains(.,'NHS dental check-ups and treatment')]]",
+      "free sight tests": "//*[text()[contains(.,'sight tests')]]",
+      "free wigs and fabric supports": "//*[text()[contains(.,'NHS wigs and fabric supports')]]",
+      "money off new glasses or contact lenses": "//*[text()[contains(.,'new glasses or contact lenses')]]",
+      "money off repairing or replacing your glasses or contact lenses": "//*[text()[contains(.,'repairing or replacing your glasses or contact lenses')]]",
+      "£4.25 10th weeks pregnant": "//*[text()[contains(.,'each week of your pregnancy from the 10th week')]]",
+      "£8.50 if I have children less than 1 year old": "//*[text()[contains(.,'each week for children from birth to 1 year old')]]",
+      "£4.25 if I have children between 1 and 4 years old": "//*[text()[contains(.,'each week for children between 1 and 4 years old')]]",
+      "free vitamin supplements": "//*[text()[contains(.,'You could also get free vitamin supplements.')]]"
+    }
+  ]
+}
